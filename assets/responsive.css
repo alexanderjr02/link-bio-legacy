@@ -32,15 +32,6 @@
         padding-top: 30px;
         gap: 25px;
     }
-    .card {
-        width: 199px;
-        font-size: 7px;
-        height: 38px;
-    }
-    .card img{
-        height: 27px;
-        margin-left: 4px;
-    }
     .img {
         width: 100%;
         padding-top: 20px;
@@ -65,7 +56,7 @@
     header {
         padding: 15px;
         width: 100%;
-        height: 250px; /* Ajuste da altura para uma tela mais estreita */
+        height: 230px; /* Ajuste da altura para uma tela mais estreita */
     }
 
     .container {
@@ -86,6 +77,11 @@
     .card {
         width: 100%;
         font-size: 9px;
+        height: 35px;
+    }
+    .card img{
+        height: 25px;
+        margin-left: 4px;
     }
 
     .img {
