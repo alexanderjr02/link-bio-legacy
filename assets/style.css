@@ -11,9 +11,6 @@
     align-items: center;
     justify-content: center;
     justify-items: center;
-    background-image: url(./img/Vector.png);
-    background-position: center;
-    background-size: 100%; /* Ajuste o valor conforme necessário */
 }
 body{
     display: grid;
@@ -29,6 +26,9 @@ main{
     justify-items: center;
     display: grid;
     width: 100%;
+    background-image: url(./img/Vector.png);
+    background-position: center;
+    background-size: 100%; /* Ajuste o valor conforme necessário */
 }
 
 header{
@@ -48,7 +48,7 @@ nav{
 }
 
 .logo{
-   height: 125px;
+   height: 110px;
    font-size: 20px;
 }
 
