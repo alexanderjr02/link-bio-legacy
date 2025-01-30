@@ -1,0 +1,113 @@
+/* Responsividade para telas pequenas, a partir de 300px até 600px */
+@media (max-width: 600px) {
+
+    header {
+        width: 100%;
+        padding: 20px;
+        height: auto;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .titulo {
+        font-size: 28px;
+        margin-top: 15px;
+    }
+
+    .subtitulo {
+        font-size: 14px;
+    }
+
+    .logo {
+        font-size: 18px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .instagram-nome{
+        font-size: 10px;
+    }
+    .redes-sociais{
+        padding-top: 50px;
+        gap: 25px;
+    }
+    .card {
+        width: 199px;
+        font-size: 9px;
+        height: 38px;
+    }
+    .card img{
+        height: 27px;
+        margin-left: 4px;
+    }
+    .img {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    h2 {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    footer {
+        height: 70px;
+        width: 100%;
+    }
+
+}
+
+
+
+/* Responsividade para telas menores (a partir de 300px até 600px) */
+@media (min-width: 300px) and (max-width: 599px) {
+    header {
+        padding: 15px;
+        width: 450px;
+        height: 280px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .titulo {
+        font-size: 21px;
+    }
+
+    .subtitulo {
+        font-size: 9px;
+    }
+
+    .card {
+        width: 120px;
+        font-size: 10px;
+    }
+
+    .img {
+        width: 400px;
+        padding-top: 15px;
+    }
+
+    h2 {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    footer {
+        height: 45px;
+    }
+
+    footer h3 {
+        font-size: 15px;
+    }
+
+    span{
+        
+        font-size: 15px;
+    }
+    
+
+}
+
